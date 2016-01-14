@@ -7,6 +7,16 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
+  <remote name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <remote name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+
+  <remote name="intense"
+           fetch="https://github.com/Intense-M/"
+           revision="mm-6.0" />
+
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
@@ -15,7 +25,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="aospb" >
+  <project path="build" name="intense_build" remote="intense" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -57,7 +67,7 @@
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="intense" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
@@ -268,7 +278,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="frameworks_av" remote="aospb" />
-  <project path="frameworks/base" name="frameworks_base" remote="aospb" />
+  <project path="frameworks/base" name="frameworks_base" remote="intense" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -390,7 +400,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospb" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="intense" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
@@ -399,7 +409,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospb" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="intense" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -476,7 +486,7 @@
   <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="system_keymaster" remote="aospb" />
-  <project path="system/media" name="system_media" remote="aospb" />
+  <project path="system/media" name="system_media" remote="intense" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
@@ -496,10 +506,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="aospb" />
+  <project path="manifest" name="platform_manifest" remote="intense" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/aospb" name="vendor_aospb" remote="aospb" />
+  <project path="vendor/intense" name="vendor_intense" remote="intense" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
