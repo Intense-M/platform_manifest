@@ -406,7 +406,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="intense" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="intense" />
