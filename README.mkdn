@@ -20,7 +20,7 @@ mkdir -p ~/Intense-M
 
 cd ~/Intense-M
 
-To initialize your local repository using the Razor trees, use this command:
+To initialize your local repository using the Intense-M trees, use this command:
 ----------------------------------------------------------------------------
 
         
@@ -38,5 +38,4 @@ Then build with this command:
         . build/envsetup.sh
         lunch
         make intense OR brunch <device name>
-
 
