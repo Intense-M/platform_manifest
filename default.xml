@@ -393,7 +393,7 @@
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="aospb" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="aospb" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="intense" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="intense" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
@@ -529,7 +529,7 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
 
   <!-- New Additions for Intense-M -->
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="intense" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="intense" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="intense" />
 
