@@ -529,7 +529,7 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
 
   <!-- New Additions for Intense-M -->
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="intense" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="intense" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="intense" />
 
