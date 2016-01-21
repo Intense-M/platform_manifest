@@ -5,7 +5,7 @@ Welcome to Intense-M
 Getting Started
 ---------------
 
-To get started with Team-Razor, you'll need to get familiar with
+To get started with Intense-M, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
