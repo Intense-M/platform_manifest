@@ -532,5 +532,7 @@
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="intense" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="intense" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="intense" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
 
 </manifest>
