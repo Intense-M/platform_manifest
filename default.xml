@@ -428,7 +428,7 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="intense" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="intense" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aospb" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="intense" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -508,7 +508,7 @@
 
   <project path="manifest" name="platform_manifest" remote="intense" />
 
-  <!-- New Additions for slim -->
+  <!-- New Additions for Intense-M -->
   <project path="vendor/intense" name="vendor_intense" remote="intense" />
 
   <!-- CAF repos -->
