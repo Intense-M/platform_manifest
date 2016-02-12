@@ -534,6 +534,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="intense" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
 
   <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
