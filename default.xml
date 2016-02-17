@@ -382,7 +382,7 @@
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="intense" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aospb" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="aospb" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="intense" />
@@ -534,6 +534,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="intense" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="github" revision="cm-13.0" />
 
   <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
